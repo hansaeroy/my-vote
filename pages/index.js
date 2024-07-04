@@ -81,13 +81,13 @@ export default function Home() {
             <div className='flex justify-between space-x-4'>
               <button
                 onClick={() => handleVote('A')}
-                className='w-1/2 px-4 py-48 text-4xl text-white transition duration-300 bg-blue-500 rounded hover:bg-blue-600'
+                className='w-1/2 px-4 py-40 text-4xl text-white transition duration-300 bg-blue-500 rounded hover:bg-blue-600'
               >
                 {poll.optiona}
               </button>
               <button
                 onClick={() => handleVote('B')}
-                className='w-1/2 px-4 py-48 text-4xl text-white transition duration-300 bg-green-500 rounded hover:bg-green-600'
+                className='w-1/2 px-4 py-40 text-4xl text-white transition duration-300 bg-green-500 rounded hover:bg-green-600'
               >
                 {poll.optionb}
               </button>
